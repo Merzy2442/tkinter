@@ -1,3 +1,4 @@
+import tkinter as tk
 def saludar():
  nombre = entrada.get()
  etiqueta_resultado.config(text=f"Hola {nombre}")
